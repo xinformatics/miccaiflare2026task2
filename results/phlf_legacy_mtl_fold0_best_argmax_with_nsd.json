@@ -1,0 +1,182 @@
+{
+  "metrics": {
+    "dice": 0.3704531701557559,
+    "dice_per_label": {
+      "1": 0.9233272545506344,
+      "2": 0.3209516696441085,
+      "3": 0.22334129569479158,
+      "4": 0.014192460733489025
+    },
+    "nsd": 0.1551713109061142,
+    "nsd_per_label": {
+      "1": 0.5583672989486764,
+      "2": 0.021915958739630877,
+      "3": 0.03976546199226121,
+      "4": 0.000636523943888286
+    },
+    "balanced_accuracy": 0.5166666666666667,
+    "auroc": 0.75
+  },
+  "cases": [
+    {
+      "identifier": "C1_017",
+      "label": 0,
+      "probability": 0.6564381122589111
+    },
+    {
+      "identifier": "C1_018",
+      "label": 0,
+      "probability": 0.7028360962867737
+    },
+    {
+      "identifier": "C1_029",
+      "label": 0,
+      "probability": 0.5162448883056641
+    },
+    {
+      "identifier": "C1_031",
+      "label": 0,
+      "probability": 0.4745246171951294
+    },
+    {
+      "identifier": "C1_046",
+      "label": 0,
+      "probability": 0.7082125544548035
+    },
+    {
+      "identifier": "C1_051",
+      "label": 0,
+      "probability": 0.7162185907363892
+    },
+    {
+      "identifier": "C1_059",
+      "label": 0,
+      "probability": 0.6908720135688782
+    },
+    {
+      "identifier": "C1_065",
+      "label": 0,
+      "probability": 0.6319350600242615
+    },
+    {
+      "identifier": "C1_074",
+      "label": 0,
+      "probability": 0.5499125719070435
+    },
+    {
+      "identifier": "C1_082",
+      "label": 0,
+      "probability": 0.5929612517356873
+    },
+    {
+      "identifier": "C1_085",
+      "label": 0,
+      "probability": 0.7161193490028381
+    },
+    {
+      "identifier": "C2_001",
+      "label": 0,
+      "probability": 0.6566582322120667
+    },
+    {
+      "identifier": "C2_008",
+      "label": 0,
+      "probability": 0.6276088953018188
+    },
+    {
+      "identifier": "C2_013",
+      "label": 0,
+      "probability": 0.7186931371688843
+    },
+    {
+      "identifier": "C2_015",
+      "label": 0,
+      "probability": 0.6117879152297974
+    },
+    {
+      "identifier": "C2_018",
+      "label": 0,
+      "probability": 0.5553146600723267
+    },
+    {
+      "identifier": "C2_024",
+      "label": 0,
+      "probability": 0.6201616525650024
+    },
+    {
+      "identifier": "C2_025",
+      "label": 0,
+      "probability": 0.7172099947929382
+    },
+    {
+      "identifier": "C2_028",
+      "label": 0,
+      "probability": 0.514705240726471
+    },
+    {
+      "identifier": "C2_029",
+      "label": 1,
+      "probability": 0.6846858263015747
+    },
+    {
+      "identifier": "C2_038",
+      "label": 0,
+      "probability": 0.8056321740150452
+    },
+    {
+      "identifier": "C2_042",
+      "label": 0,
+      "probability": 0.5537466406822205
+    },
+    {
+      "identifier": "C2_044",
+      "label": 0,
+      "probability": 0.6791787147521973
+    },
+    {
+      "identifier": "C2_048",
+      "label": 0,
+      "probability": 0.5700321793556213
+    },
+    {
+      "identifier": "C2_058",
+      "label": 0,
+      "probability": 0.7405498027801514
+    },
+    {
+      "identifier": "C2_063",
+      "label": 0,
+      "probability": 0.7257458567619324
+    },
+    {
+      "identifier": "C2_092",
+      "label": 0,
+      "probability": 0.5391955375671387
+    },
+    {
+      "identifier": "C3_009",
+      "label": 0,
+      "probability": 0.8248854875564575
+    },
+    {
+      "identifier": "C3_021",
+      "label": 1,
+      "probability": 0.7910149693489075
+    },
+    {
+      "identifier": "C3_024",
+      "label": 0,
+      "probability": 0.7472472190856934
+    },
+    {
+      "identifier": "C3_025",
+      "label": 0,
+      "probability": 0.6606104373931885
+    },
+    {
+      "identifier": "C3_032",
+      "label": 0,
+      "probability": 0.7645401358604431
+    }
+  ]
+}

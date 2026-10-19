@@ -1,0 +1,26 @@
+seed: 20260903
+base_width: 32
+target_patch_voxels: 2000000
+target_batch_voxels: 4194304
+max_batch_size: 4
+loader_workers: 6
+balanced_sample_fraction: 1.0
+glance_size: 64
+glance_cache: data/glance_cache_public_test
+learning_rate: 0.00005
+weight_decay: 0.00001
+warmup_steps: 100
+total_steps: 3000
+checkpoint_every: 1000
+log_every: 20
+gradient_accumulation: 1
+task_sampling_power: 0.5
+target_task_multiplier: 1.0
+coarse_loss_weight: 0.0
+classification_loss_weight: 1.0
+classification_label_smoothing: 0.02
+trainable_parameter_prefixes:
+  - decoder.
+  - segmentation_heads.
+compile: false
+output_dir: artifacts/public_test_egct_decoder_joint_refit_all

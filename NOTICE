@@ -1,0 +1,8 @@
+MICCAI FLARE 2026 AutoMSC Task 2
+Copyright 2026 xinformatics contributors
+
+This distribution includes original Glance--Focus implementation code and
+trained weights. It interoperates with nnU-Net and the FLARE AutoMSC task.
+Organizer-provided datasets and organizer baseline checkpoints are not part of
+this distribution and remain governed by their original licenses and terms.
+

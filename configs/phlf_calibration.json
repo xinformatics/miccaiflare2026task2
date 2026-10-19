@@ -1,0 +1,10 @@
+{
+  "source": "fold0_balanced_accuracy_operating_point",
+  "classification_logit_biases": {
+    "phlf_grade_bc": [0.0, 2.136718711476066]
+  },
+  "probability_threshold_before_calibration": 0.10557884722948074,
+  "balanced_accuracy_before": 0.5,
+  "balanced_accuracy_after": 0.6833333333333333,
+  "auroc_unchanged": 0.6416666666666667
+}

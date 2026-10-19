@@ -1,0 +1,9 @@
+{
+  "source": "repeated_10x5_stratified_crossfit_on_fold0_predictions",
+  "classification_logit_biases": {
+    "tumor_type": [0.0, 2.16523144, -1.17642792]
+  },
+  "crossfit_balanced_accuracy_before": 0.540604,
+  "crossfit_balanced_accuracy_after": 0.609963,
+  "crossfit_auroc_after": 0.727549
+}

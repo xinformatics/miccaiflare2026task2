@@ -8,8 +8,11 @@
 | `egct_final.pth` | 149,743,036 | `5c74bd6eb714e813905995b2338002a9eb7abda21086a2a20216b6dc0712e5f0` |
 | `phlf_final.pth` | 250,146,999 | `6adec18adb4ca61e65f3d50cc48e2d613d2e2c9cd73c14354422956a7406fdff` |
 
-The files are distributed in the companion Zenodo archive rather than in Git.
-After extracting that archive into the repository root, verify them with:
+The files are distributed in the
+[companion Zenodo archive](https://doi.org/10.5281/zenodo.23483494) rather than
+in Git. The archive SHA-256 is
+`e3ed9b48c8b198941419d98461185e020c4f1aaefa0fde6db8a4c34d263917a7`.
+After extracting it into the repository root, verify the checkpoints with:
 
 ```bash
 sha256sum models/*.pth

@@ -1,5 +1,7 @@
 # MICCAI FLARE 2026 AutoMSC Task 2
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23483494.svg)](https://doi.org/10.5281/zenodo.23483494)
+
 Publication code and model documentation for joint 3D segmentation and
 case-level clinical classification in the FLARE 2026 AutoMSC challenge.
 
@@ -47,10 +49,20 @@ Place the organizer-provided datasets below `$nnUNet_raw`; do not commit them.
 ## Released checkpoints
 
 The trained weights are archived separately on Zenodo so that this Git
-repository remains lightweight. **The permanent Zenodo DOI will be inserted
-here when the prepared record is published.** Download and extract the model
-archive into the repository root; the checkpoints will then appear under
-`models/`.
+repository remains lightweight. Download the exact v1.0.0 model archive from
+[Zenodo (DOI: 10.5281/zenodo.23483494)](https://doi.org/10.5281/zenodo.23483494)
+and extract it into the repository root; the checkpoints will then appear
+under `models/`.
+
+```bash
+curl -L -o miccaiflare2026task2-models-v1.0.0.tar.gz \
+  'https://zenodo.org/records/23483494/files/miccaiflare2026task2-models-v1.0.0.tar.gz?download=1'
+tar -xzf miccaiflare2026task2-models-v1.0.0.tar.gz
+sha256sum -c SHA256SUMS
+```
+
+The archive SHA-256 is
+`e3ed9b48c8b198941419d98461185e020c4f1aaefa0fde6db8a4c34d263917a7`.
 
 | File | Purpose |
 |---|---|
@@ -130,14 +142,16 @@ checkpoints.
 ## Citation
 
 Please cite the accompanying FLARE 2026 AutoMSC technical report. Until its
-proceedings record is available, cite this repository as:
+proceedings record is available, cite the archived model release as:
 
 ```bibtex
-@software{xinformatics2026automsc,
-  author  = {{xinformatics}},
-  title   = {MICCAI FLARE 2026 AutoMSC Task 2: Glance--Focus},
-  year    = {2026},
-  url     = {https://github.com/xinformatics/miccaiflare2026task2}
+@software{mayoclinic2026automsc,
+  author    = {{Mayo Clinic}},
+  title     = {MICCAI FLARE 2026 AutoMSC Task 2},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23483494},
+  url       = {https://doi.org/10.5281/zenodo.23483494}
 }
 ```
 

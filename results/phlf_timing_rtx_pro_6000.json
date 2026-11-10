@@ -1,0 +1,36 @@
+{
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "scope": "preprocessed B2ND read plus model inference; excludes raw-image preprocessing, model loading, and output serialization",
+  "task": "phlf",
+  "identifiers": [
+    "C1_017",
+    "C1_018",
+    "C1_029",
+    "C1_031",
+    "C1_046",
+    "C1_051",
+    "C1_059",
+    "C1_065",
+    "C1_074",
+    "C1_082"
+  ],
+  "seconds": [
+    2.052678956883028,
+    1.148524824064225,
+    1.6614876901730895,
+    1.676772675011307,
+    1.139352906960994,
+    1.1414724739734083,
+    1.612502055009827,
+    1.1397403748705983,
+    1.6250874400138855,
+    1.6802973430603743
+  ],
+  "median_seconds": 1.6187947475118563,
+  "iqr_seconds": [
+    1.1432355614961125,
+    1.6729514288017526
+  ],
+  "peak_allocated_gib": 2.8878602981567383,
+  "peak_reserved_gib": 3.3984375
+}

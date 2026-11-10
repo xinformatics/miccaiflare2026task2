@@ -117,13 +117,17 @@ tolerance. PHLF segmentation averages liver, tumor, spleen, and muscle.
 
 | Dataset | Model | DSC | NSD | BA | AUROC |
 |---|---|---:|---:|---:|---:|
-| EGCT | Organizer-style 3D MTL nnU-Net | 0.4058 | 0.0230 | 0.3333 | 0.4591 |
+| EGCT | Organizer-style 3D MTL nnU-Net | 0.1008 | 0.0230 | 0.3333 | 0.4591 |
 | EGCT | Glance--Focus | **0.4772** | **0.2679** | **0.5483** | **0.7047** |
-| PHLF | Organizer-style 3D MTL nnU-Net | 0.3705 | 0.1552 | 0.5167 | **0.7500** |
-| PHLF | Glance--Focus | **0.7154** | **0.3715** | **0.6833** | 0.6417 |
+| PHLF | Organizer-style 3D MTL nnU-Net | 0.2990 | 0.1552 | **0.5167** | **0.7500** |
+| PHLF | Glance--Focus | **0.7154** | **0.3715** | 0.5000 | 0.6417 |
 
-The PHLF Glance--Focus BA includes the saved fold-0 decision-boundary
-adjustment. Its unadjusted BA is 0.5000; AUROC is unchanged.
+All DSC values above are means of case-wise foreground DSC. Earlier internal
+summaries of 0.4058 (EGCT) and 0.3705 (PHLF) for nnU-Net pooled voxels across
+cases and are not used for comparison. A post-hoc PHLF decision boundary raises
+Glance--Focus BA to 0.6833 on the same fold, but the table reports the
+uncalibrated 0.5-threshold value. Bootstrap intervals and timing measurements
+are available under [`results/`](results/).
 
 ## Glioma validation specialist
 
